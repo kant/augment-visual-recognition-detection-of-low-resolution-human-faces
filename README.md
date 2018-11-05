@@ -116,13 +116,13 @@ If you are using a mac machine then compression creates some additional files wh
 * Follow this link- https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md and download any of the COCO trained models, as per your requirement. If you are using the same dataset the preferred model would be `ssd_mobilenet_v1_coco`.
 * In the created `object_detection` folder and replace the existing model folder with the unzipped downloaded model.
 
-* Add the `object-detection.pbtxt` file in this repo to the `object_detction` folder.
+* Add the `object-detection.pbtxt` file in this repo to the `object_detection` folder.
 
 * Once all components are added your `object_detection` folder would contain the following directory structure.
 
 ![](/doc/source/images/Directory_Structure.png)
 
-* Zip the Object_Detection folder to upload it on Object Storage later.
+* Zip the `Object_Detection` folder to upload it on Object Storage later.
 
 
 ### 4.3 Create Object Storage service instance
